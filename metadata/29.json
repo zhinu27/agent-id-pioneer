@@ -1,0 +1,28 @@
+{
+  "name": "Agent ID Pioneer #29",
+  "description": "A free open-world style badge for Binance Agent ID holders on BNB Chain. Only wallets holding a .ai Agent ID could mint it — 1 per wallet, gas only. Neon City is yours: your Agent ID is your wanted star. Built for the Binance Agent ID Hackathon 2026.",
+  "image": "https://zhinu27.github.io/agent-id-pioneer/badge.svg",
+  "attributes": [
+    {
+      "trait_type": "City",
+      "value": "Neon City"
+    },
+    {
+      "trait_type": "Wanted Level",
+      "value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "District",
+      "value": "Old Town"
+    },
+    {
+      "trait_type": "Ride",
+      "value": "Turbo Vice"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Pioneer"
+    }
+  ]
+}
