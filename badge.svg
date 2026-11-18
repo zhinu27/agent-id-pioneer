@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0e14"/>
+      <stop offset="55%" stop-color="#1b1040"/>
+      <stop offset="100%" stop-color="#3b1155"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2e88"/>
+      <stop offset="50%" stop-color="#f0b90b"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff9a3d"/>
+      <stop offset="100%" stop-color="#ff2e88"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="48" fill="url(#sky)"/>
+  <!-- retro sun -->
+  <circle cx="320" cy="250" r="110" fill="url(#sun)"/>
+  <rect x="180" y="250" width="280" height="8" fill="#0b0e14" opacity="0.55"/>
+  <rect x="180" y="272" width="280" height="7" fill="#0b0e14" opacity="0.55"/>
+  <rect x="180" y="292" width="280" height="6" fill="#0b0e14" opacity="0.55"/>
+  <!-- city skyline -->
+  <g fill="#0b0e14">
+    <rect x="40" y="360" width="70" height="180"/>
+    <rect x="120" y="320" width="60" height="220"/>
+    <rect x="190" y="380" width="80" height="160"/>
+    <rect x="280" y="300" width="70" height="240"/>
+    <rect x="360" y="360" width="70" height="180"/>
+    <rect x="440" y="320" width="60" height="220"/>
+    <rect x="510" y="380" width="90" height="160"/>
+  </g>
+  <!-- neon windows -->
+  <g fill="#00e5ff" opacity="0.9">
+    <rect x="60" y="380" width="10" height="10"/><rect x="85" y="410" width="10" height="10"/>
+    <rect x="135" y="340" width="10" height="10"/><rect x="155" y="380" width="10" height="10"/>
+    <rect x="300" y="320" width="10" height="10"/><rect x="320" y="360" width="10" height="10"/>
+    <rect x="455" y="340" width="10" height="10"/><rect x="475" y="390" width="10" height="10"/>
+  </g>
+  <g fill="#ff2e88" opacity="0.9">
+    <rect x="210" y="400" width="10" height="10"/><rect x="240" y="430" width="10" height="10"/>
+    <rect x="380" y="380" width="10" height="10"/><rect x="405" y="420" width="10" height="10"/>
+    <rect x="530" y="400" width="10" height="10"/><rect x="560" y="440" width="10" height="10"/>
+  </g>
+  <!-- wanted stars -->
+  <g fill="#f0b90b" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="bold">
+    <text x="200" y="120" text-anchor="middle">★</text>
+    <text x="250" y="120" text-anchor="middle">★</text>
+    <text x="300" y="120" text-anchor="middle">★</text>
+    <text x="350" y="120" text-anchor="middle">★</text>
+    <text x="400" y="120" text-anchor="middle">★</text>
+  </g>
+  <text x="320" y="80" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#e8ecf3" text-anchor="middle" letter-spacing="6">WANTED LEVEL: 5</text>
+  <!-- title -->
+  <text x="320" y="580" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="url(#neon)" text-anchor="middle">AGENT ID PIONEER</text>
+  <text x="320" y="612" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#9aa7bd" text-anchor="middle">NEON CITY • BNB CHAIN • HACKATHON 2026</text>
+</svg>
